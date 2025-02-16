@@ -1,0 +1,21 @@
+/* Pari e Dispari
+L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. Generiamo un numero random (sempre da 1 a 5) per il 
+computer (usando una funzione). Sommiamo i due numeri Stabiliamo se la somma dei due numeri 
+è pari o dispari (usando una funzione) Dichiariamo chi ha vinto. */
+
+
+
+function pariDispari (min, max) {
+    return Math.floor(Math.random()*(min - max + 1))+ min;
+}
+const min = 1
+const max = 6
+const guess= parseInt (prompt("Inserisci un numero"))
+
+if(randomNum % 2===0) {
+    console.log("Il numero"+ randomNum + "è pari!" )
+}
+else{
+    console.log("Il numero" + randomNum + "è dispari!")
+}
+
