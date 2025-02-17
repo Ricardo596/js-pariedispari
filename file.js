@@ -5,7 +5,7 @@ computer (usando una funzione). Sommiamo i due numeri Stabiliamo se la somma dei
 
 
 
-function pariDispari (min, max) {
+/* function pariDispari (min, max) {
     return Math.floor(Math.random()*(min - max + 1))+ min;
 }
 const min = 1
@@ -18,4 +18,26 @@ if(randomNum % 2===0) {
 else{
     console.log("Il numero" + randomNum + "è dispari!")
 }
+ */
 
+
+const userChoice = `pari`
+const playerNumb = 2
+const playerChoice =
+
+
+ function generateNumberBetweenOneAndFive() {
+    return Math.ceil(Math.random()* 5)
+} 
+
+/* const pcNumb= generateNumberBetweenOneAndFive() */
+/* console.log(pcNumb, playerNumb, playerChoice)
+ */
+const result = sum (playerNumb, pcNumb)
+console.log(result)
+
+if(isEven(result) ) 
+
+if (isEven(result) === playerChoice){
+    console.log(`You win Result ${result}| Your choice: ${playerChoice}- Your number${playerNumb}` )
+}
